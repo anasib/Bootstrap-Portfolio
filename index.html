@@ -6,76 +6,10 @@
 
     <title>Portfolio With Bootstrap</title>
     <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 </head>
-
-<style>
-    #aboutMeParagraph {
-        width: 550px;
-        padding: auto;
-        box-sizing: border-box;
-        background-color: #ffffff;
-        color: gray;
-        margin-right: 4em;
-    }
-
-    .my-image {
-        float: left;
-        margin: 6px;
-    }
-
-    #contactImages {
-        display: flex;
-        box-sizing: border-box;
-        margin: 10px;
-    }
-
-    .copyright-container {
-        position: absolute;
-        display: block;
-        width: 890px;
-        top: 570px;
-        background: gray;
-        padding: 2em;
-        text-align: center;
-        border-top: 10px solid #4aaaa5;
-    }
-
-    .copyright {
-        color: lightgray;
-    }
-
-    .navbar-collapse.collapse {
-        display: block!important;
-    }
-
-    .navbar-nav>li,
-    .navbar-nav {
-        float: left !important;
-    }
-
-    .navbar-nav.navbar-right:last-child {
-        margin-right: -15px !important;
-    }
-
-    .navbar-right {
-        float: right!important;
-    }
-
-    .container-copyright {
-        position: absolute;
-        left: 0;
-        right: 0;
-        display: block;
-        bottom: 0px;
-        background: gray;
-        padding: 2em;
-        text-align: center;
-        border-top: 10px solid #4aaaa5;
-    }
-
-</style>
 
 <body>
 
@@ -85,20 +19,20 @@
 
             <!-- Name Section -->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">Atta Nasib</a>
+                <a href="index.html" class="navbar-brand">Atta Nasib</a>
             </div>
 
             <!-- Navbar Section-->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">About</a>
+                        <a href="index.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -108,31 +42,35 @@
     <!-- About Me Container -->
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="about-me-container col-md-8">
                 <div class="about-me">
                     <h1>About Me</h1>
                 </div>
 
                 <!-- Biography Container -->
-                <div class="row">
-                    <div class="col-md-8">
+                <div id="bio" class="row">
+                    <div class="biography">
                         <img class="my-image" src="/Users/attanasib/Documents/GW Bootcamp/anasib.github.io/images/Atta Nasib.png" alt="Atta-Nasib">
                         <p id="aboutMeParagraph">
                             My name is Atta Nasib and I'm a SDET with a startup. I have two degrees and 7 plus years experience. I'm an avid reader of
-                            political science, I love soccer, and watch movies. My name is Atta Nasib and I'm a SDET with
-                            a startup. I have two degrees and 7 plus years experience. I'm an avid reader of political science,
-                            I love soccer, and watch movies. My name is Atta Nasib and I'm a SDET with a startup. I have
-                            two degrees and 7 plus years experience. I'm an avid reader of political science, I love soccer,
-                            and watch movies. My name is Atta Nasib and I'm a SDET with a startup. I have two degrees and
-                            7 plus years experience. I'm an avid reader of political science, I love soccer, and watch movies.
+                            political science, I love soccer, and watch movies.
+                            <br>
+                            <br> My name is Atta Nasib and I'm a SDET with a startup. I have two degrees and 7 plus years experience.
+                            I'm an avid reader of political science, I love soccer, and watch movies.
+                            <br>
+                            <br> My name is Atta Nasib and I'm a SDET with a startup. I have two degrees and 7 plus years experience.
+                            I'm an avid reader of political science, I love soccer, and watch movies.
+                            <br>
+                            <br> My name is Atta Nasib and I'm a SDET with a startup. I have two degrees and 7 plus years experience.
+                            I'm an avid reader of political science, I love soccer, and watch movies.
                         </p>
                     </div>
                 </div>
             </div>
 
             <!-- Social Media Contact -->
-            <div class="container-fluid">
-                <div class="col-sm-3 col-md-6 navbar-right">
+            <div id="media" class="container-fluid">
+                <div class="media-column col-md-4 navbar-right">
                     <h2>Connect With Me</h2>
 
                     <!-- Social Media Links -->
@@ -154,22 +92,17 @@
                                         <img src="/Users/attanasib/Documents/GW Bootcamp/anasib.github.io/images/linkedin.png" alt="LinkedIn" width="50px">
                                     </a>
                                 </li>
-
                             </ul>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
     <!-- Footer Container -->
-    <div class="footer-copyright py-3 text-center">
-        <div class="container-copyright">
-            <footer>Copyright © 2018 Atta Nasib</footer>
-        </div>
+    <div class="footer">
+        <footer>Copyright © 2018 Atta Nasib</footer>
     </div>
 
 </body>
